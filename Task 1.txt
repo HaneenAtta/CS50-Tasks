@@ -1,0 +1,50 @@
+First Question 
+START
+READ grade
+IF grade>=50 THEN 
+    PRINT "Passed"
+ELSE 
+    PRINT"Failed"
+END IF 
+END
+
+Second Question 
+Algorithm:
+1. Start.
+2. Read the list of registered seat numbers.
+3. Read the student's seat number.
+4. Check whether the student's seat number is in the list.
+5. If it is in the list, allow the student to enter.
+6. Otherwise, do not allow the student to enter.
+7. End.
+
+Input:
+• Registered seat numbers: [123, 122, 121, 120].
+• The student's seat number.
+
+Output:
+• "Allowed to enter" or "Not allowed to enter".
+
+Cases and decisions:
+• If the student's seat number is in the list, allow the student to enter.
+• If the student's seat number is not in the list, do not allow the student to enter.
+
+Pseudocode:
+START
+READ seat_number, list
+IF seat_number IN list THEN
+    PRINT "enter"
+ELSE
+    PRINT "do not enter"
+END IF
+END
+
+Test Case 1:
+List: [123, 122, 121, 120]
+Student's seat number: 122
+Expected output: Allowed to enter.
+
+Test Case 2:
+List: [123, 122, 121, 120]
+Student's seat number: 125
+Expected output: Not allowed to enter.
